@@ -1,5 +1,22 @@
 * {
-    background-color: #696969;
-    color: #ffffff;
-    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif
 }
+
+.recipes {
+    margin: 20px;
+}
+
+.ingredients {
+    margin: 10px;
+}
+
+.directions {
+    margin: 10px 25px;
+}
+
+/* I need to add another class for directions sub-steps so that the bullet point will indent */
+/* I should also find make a stylized centered icon to use for numbering so I don't have to deal with
+   double-digit numbered list items being farther left than single-digit list items */
