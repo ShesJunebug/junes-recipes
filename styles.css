@@ -17,6 +17,14 @@
     margin: 10px 25px;
 }
 
+.columns {
+    column-count: 2;
+    break-inside: avoid;
+}
+
+h2 {
+    break-before: column;
+}
 /* I need to add another class for directions sub-steps so that the bullet point will indent */
 /* I should also find make a stylized centered icon to use for numbering so I don't have to deal with
    double-digit numbered list items being farther left than single-digit list items */
